@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 750px) {
-    .inicio, .biografia-rapida, .conquistas, .israel-adesanya-1, .nocaute-ufc-281, .detalhes {
+    .inicio, .biografia-rapida, .conquistas, .israel-adesanya-1, .israel-adesanya-2, .nocaute-ufc-281, .detalhes {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;

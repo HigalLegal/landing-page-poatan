@@ -1,6 +1,9 @@
+const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
 const state = {
-    tema: 'escuro',
+    tema: isDark ? 'escuro' : 'claro',
 };
+
   
 export function getState() {
     return structuredClone(state);

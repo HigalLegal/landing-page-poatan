@@ -37,10 +37,10 @@ class HeaderChama extends HTMLElement {
                 </button>
 
                 <ul class="mobile-menu">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Biográfia rapida</a></li>
-                    <li><a href="#">Conquista</a></li>
-                    <li><a href="#">Rivalidade com Adesanya</a></li>
+                    <li><a data-section="inicio">Início</a></li>
+                    <li><a data-section="biografia-rapida">Biográfia rapida</a></li>
+                    <li><a data-section="conquistas">Conquista</a></li>
+                    <li><a data-section="israel-adesanya-1">Rivalidade com Adesanya</a></li>
                     <li><a href="detalhes.html">Detalhes e curiosidades</a></li>
                     <li><button class="trocar-tema">Trocar tema</button></li>
                 </ul>
@@ -224,5 +224,4 @@ class HeaderChama extends HTMLElement {
     }
 }
 
-// Registra o custom element
 customElements.define('header-chama', HeaderChama);
