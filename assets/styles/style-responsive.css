@@ -1,0 +1,47 @@
+@media(max-width: 950px) {
+    .israel-adesanya-3 {
+        background-image: url('../imgs/poatan-e-adesanya-juntos-mobile.jpg');
+    }
+}
+
+@media(max-width: 850px) {
+    .israel-adesanya-1 {
+        background-image: url('../imgs/poatan-x-adesanya-tablet.webp');
+    }
+}
+
+@media (max-width: 750px) {
+    .inicio, .biografia-rapida, .conquistas, .israel-adesanya-1, .nocaute-ufc-281, .detalhes {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .resumo-descricao {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+}
+
+@media(max-width: 560px) {
+    .israel-adesanya-1 {
+        background-image: url('../imgs/adesanya.jpg');
+    }
+
+    .detalhes {
+        background-image: url('../imgs/poatan-wallpaper-phone.jpg');
+    }
+
+}
+
+@media (max-width: 400px) {
+    .resumo-descricao {
+        width: 250px;
+        margin-bottom: 120px;
+    }
+
+    .israel-adesanya-3 checklist-box {
+        margin-top: 40px;
+    }
+}

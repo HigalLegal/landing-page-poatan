@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald';
+}
+
+html, body {
+    height: 100%;
+}
+
+.escuro {
+    --cor-fundo-principal: #0D0D0D;
+    --cor-fundo-secundario: #1A1A1A;
+    --cor-destaque: #D7263D;
+    --cor-texto-principal: #F2F2F2;
+    --cor-texto-secundario: #BFBFBF;
+    --cor-hover: #bfbfbf7a;
+    --cor-borda: #D4D4D4;
+    --cor-acento: #F2A900;
+    --cor-cards: #1a1a1aad;
+}
+
+.claro {
+    --cor-fundo-principal: #FAFAFA;
+    --cor-fundo-secundario: #F0F0F0;
+    --cor-destaque: #C41E3A;
+    --cor-texto-principal: #111111;
+    --cor-texto-secundario: #4D4D4D;
+    --cor-hover: #4d4d4d79;
+    --cor-borda:  #333333;
+    --cor-acento: #1E2A38;
+    --cor-cards: #f0f0f0b6;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.inicio, .biografia-rapida, .conquistas, .israel-adesanya-1, .israel-adesanya-2, .israel-adesanya-3, .nocaute-ufc-281, .detalhes {
+    min-height: 100vh;
+    position: relative;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.inicio {
+    background-image: url('../imgs/background-inicio.jpg');
+}
+
+.resumo-descricao {
+    width: 350px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+    padding: 10px 14px;
+    border-radius: 15px;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.biografia-rapida {
+    background-image: url('../imgs/belocqua.png');
+}
+
+.resumo-descricao p {
+    font-family: 'Inter';
+    margin-top: 10px;
+}
+
+.conquistas {
+    background-image: url('../imgs/poatan-flecha.webp');
+}
+
+.israel-adesanya-1 {
+    background-image: url('../imgs/poatan-x-adesanya.jpg');
+}
+
+.israel-adesanya-2 {
+    background-image: url('../imgs/poatan-x-adesanya-foto-2.jpg');
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nocaute-ufc-281 {
+    background-image: url('../imgs/poatan-wallpaper-glory.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iframe-nocaute {
+    padding: 8px 14px;
+    height: 400px;
+    background-color: var(--cor-cards);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: var(--cor-texto-principal);
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.israel-adesanya-3 {
+    background-image: url('../imgs/poatan-e-adesanya-juntos.webp');
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.detalhes {
+    background-image: url('../imgs/poatan-botando-russo-pra-mamar.avif');
+}
