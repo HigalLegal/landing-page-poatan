@@ -112,6 +112,14 @@ header {
     margin-bottom: 20px;
     color: var(--cor-texto-principal);
     transition: background-color 0.8s ease, color 0.8s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iframe-nocaute h2 {
+    text-align: center;
 }
 
 .israel-adesanya-3 {

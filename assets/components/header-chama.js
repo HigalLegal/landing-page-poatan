@@ -41,7 +41,7 @@ class HeaderChama extends HTMLElement {
                     <li><a href="#">Biográfia rapida</a></li>
                     <li><a href="#">Conquista</a></li>
                     <li><a href="#">Rivalidade com Adesanya</a></li>
-                    <li><a href="#">Detalhes e curiosidades</a></li>
+                    <li><a href="detalhes.html">Detalhes e curiosidades</a></li>
                     <li><button class="trocar-tema">Trocar tema</button></li>
                 </ul>
             </header>
